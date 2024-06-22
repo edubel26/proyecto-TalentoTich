@@ -1,0 +1,133 @@
+
+.titulo-form{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    color: var(--color-text-inverso);
+}
+
+form{
+    border: var(--color-border-form) 0.5px solid;
+    padding: 20px;
+    line-height: 200%;
+    
+}
+
+.hr-top{
+    margin-bottom: 10px;
+}
+
+.hr-button{
+    margin-top: 10px;
+}
+
+.formurario{
+    background-color: var(--color-footer);
+    margin: auto; 
+    max-width: 450px;
+    margin-top: 30px;
+    padding: 30px 25px;
+    font-weight: 800;
+    border-radius: 0% 10%;
+    border: var(--color-border-form) 1px solid;
+}
+
+fieldset{
+    padding:  0 20px 20px 20px ;
+    margin-bottom: 10px;
+    color: var(--color-text-inverso);
+}
+
+.file{
+    padding-left: 10px;
+}
+
+legend{
+    text-align: center;
+}
+
+.contenedor-boton{
+ padding: 20px;
+ padding-bottom: 10px;
+}
+
+.boton-registro{
+    background-color:var(--color-boton);
+    padding: 5px;
+    border-width: 0.8px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.boton-registro:hover{
+    background-color: var(--color-link-inverso);
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-table{
+    padding-top: 20px;
+}
+
+
+
+table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 60%;
+    background-color: var(--color-footer);
+    color: var(--color-text-inverso);
+    
+}
+
+th{
+    height: 50px;
+    padding: 10px 30px;
+}
+
+td {
+    text-align: center;
+    
+}
+th, td {
+    border-bottom: 1px solid var();
+}
+
+tr:hover{
+    background-color:var(--color-footer-inverso);
+    color: var(--color-text);
+}
+
+.titulo-tabla:hover{
+    background-color:var(--color-footer-inverso);
+    color: var(--color-text);
+}
+
+label{
+    color: var(--color-text-inverso);
+}
+
+.a{
+    padding: 0;
+    margin: 0;
+    color: var(--color-text);
+}
+
+.volver{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 20px;
+
+}
+
+.a:hover{
+    font-size: 25px;
+    color: var(--color-link);
+    text-decoration: none;
+    transition: 0.3s;
+}

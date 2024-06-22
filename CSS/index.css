@@ -1,0 +1,264 @@
+
+.footer{
+    background-color: var(--color-footer);
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: var(--color-text);
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: var(--color-text-inverso);
+    
+}
+
+.presentacion{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+.logo{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 400px;
+    height: 300px;
+}
+
+.selectLogo{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--color-footer);
+    color: var(--color-text-inverso);
+}
+
+.descripcion{
+    padding:  0 20%  5% 20%;
+    max-width: 850px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+
+.video-link{
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background-color: var(--color-footer);
+    max-width: 850px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.link{ 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.button_slide {
+    background-color: var(--color-boton);
+    text-decoration: none;
+    color: var(--color-text);
+    border: 2px solid var(--color-link);
+    border-radius: 0px;
+    padding: 15px 27px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--color-link);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+    box-shadow: inset 0 100px 0 0 var(--color-link);
+    font-weight: 800;
+}
+
+.lista-juegos{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 350px;
+    padding: 5% 0 3% 0 ;
+}
+
+.a{
+    padding: 0;
+    margin: 0;
+    color: var(--color-text);
+}
+
+.registro{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 3%;
+    font-size: 19px;
+}
+
+.a:hover{
+    font-size: 22px;
+    color: var(--color-link);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ol{
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.a-mas-juego{
+    text-decoration: none;
+    color: var(--color-text);
+    line-height: 30px;
+}
+
+.a-mas-juego:hover{
+    color: var(--color-link);
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: var(--color-footer);
+}
+
+.container{
+    color: var(--color-text-inverso);
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 50px ;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto 0 ;
+    line-height: 50px ;
+}
+
+.ul li{
+    padding: 0 15px;
+}
+
+.ul a{
+    color: var(--color-text-inverso);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ul a:hover{
+    color: var(--color-link-inverso);
+    font-size: 20px;
+     text-decoration:line-through; 
+    /* text-decoration:overline; */
+    /* text-decoration: underline; */
+}
+
+
+.cambioDeColor{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    padding: 20px 40px 0 0 ;
+}
+
+.button-color{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+ul{
+    list-style: none;
+    padding-bottom: 0;
+    
+}
+
+.lista-ul li ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.lista-ul li:hover > ul{
+    display: block;
+}
+
+.lista{
+    display: block;
+    padding-bottom: 0;
+}
+
+.button-color{
+    background-color: var(--color-fondo);
+    list-style: none;
+}
+
+
+.uno{
+    background-color: rgb(165, 42, 42);
+    
+}
+
+.dos{
+    background-color: #CDFAFA ;
+    z-index: 100;
+}
+
+.tres{
+    background-color: #C89B3C;
+}
+
+.cuatro{
+    background-color: #A09B8C;
+    
+    
+}
+
+

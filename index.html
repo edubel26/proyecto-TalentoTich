@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="temaBase">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/cambioDeColor.js"></script>
+    <script defer src="js/tamanioDeLogo.js"></script>
+
+    <script src="../assets/loadNavbarDos.js"></script>
+    <div id="navbar"></div>
+
+</head>
+<body class="body">
+  <main class="main" >
+    <div id="volver">
+      <button type="button"><a href="./usuario/registrarse.html">TalentoTech</a></button>
+    </div>
+     <section class="cambioDeColor">
+      <ul class="lista-ul">
+        <li> 
+            <button class="button-color"><ion-icon name="caret-down-circle-outline" class="button-color ion-icon"></ion-icon></button>
+            <ul>
+              <li class="lista">
+                <button id="temaBase"  class="temaBase button-color uno " ></button>
+              </li>
+              <li class="lista">
+                <button id="temaAzul"  class="temaAzul button-color dos "></button>
+              </li>
+              <li class="lista">
+                <button id="temaOro"   class="temaOro button-color tres"  ></button>
+              </li>
+              <li class="lista">
+                <button id="temaGris"  class="temaGris button-color cuatro" ></button>
+              </li> 
+            </ul>
+        </li>
+        
+      </ul>
+     </section>
+    <div class="presentacion">
+      <!-- Nombre del juego -->
+      <h1 class="titulo">LOL-League of Legends</h1>
+        <!-- logo -->
+        <img class="logo" id="logo" src="IMG/League-of-Legends-logo.png"  alt="LOL-League">
+      
+        <select onchange="cambiarTamanoLogo(value)" id="tamanio" class="selectLogo">
+          <option value="pequeno">Pequeño</option> 
+          <option value="mediano">Mediano</option> 
+          <option value="grande">Grande</option> 
+        </select>  
+
+      <!-- Descripción -->
+      <p class="descripcion">League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.</p>
+    </div>
+
+    <div class="video-link">
+      
+      <div class="video"> 
+        <!-- Video -->     
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHhqwBwmRkI?si=5ukW8GTpJY4kn999" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when   -cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="link">
+        <!-- Link de descarga -->
+        <button id="outer" target="_blank"><a class="button_slide slide_down" class="descarga" href="https://signup.leagueoflegends.com/es-mx/signup/redownload" target="_blank">Descargar</a></button>
+      </div>
+
+    </div>
+
+    <div class="lista-juegos">
+      <!-- Mas juegos -->
+      <h2>Mas juegos: </h2>
+      <ol>
+        <li><a class="a-mas-juego" href="https://playruneterra.com/es-es/" target="_blank">Legends of Runeterra</a></li>
+        <li><a class="a-mas-juego" href="https://teamfighttactics.leagueoflegends.com/es-es/" target="_blank">Teamfight Tactics</a></li>
+        <li><a class="a-mas-juego" href="https://playvalorant.com/es-mx/" target="_blank">Valorant</a></li>
+      </ol>
+    </div>
+
+    <div class="registro">
+      <a  class="a" href="registrarse.html">Crear cuenta</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <!-- redes -->
+        <h2 class="redes-titulo">Redes Sociales: </h2>
+          <ul class="ul">
+            <li><a href="https://www.youtube.com/@leagueoflegends" target="_blank">YouTube</a></li>
+            <li><a href="https://www.facebook.com/groups/485211294954175?locale=es_LA" target="_blank">Facebook</a> </li>
+            <li><a href="https://twitter.com/lollatam" target="_blank">Twitter</a></li>
+          </ul>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+  
+</html>

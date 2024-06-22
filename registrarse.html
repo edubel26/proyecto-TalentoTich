@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es"  data-theme="temaBase">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script defer src="js/cambioDeColor.js"></script>
+
+</head>
+<body>
+    <div id="volver">
+        <button type="button"><a href="./usuario/registrarse.html">TalentoTech</a></button>
+    </div>
+    <section class="cambioDeColor">
+        <ul class="lista-ul">
+          <li> 
+              <button class="button-color"><ion-icon name="caret-down-circle-outline" class="button-color ion-icon"></ion-icon></button>
+              <ul>
+                <li class="lista">
+                  <button id="temaBase"  class="temaBase button-color uno " ></button>
+                </li>
+                <li class="lista">
+                  <button id="temaAzul"  class="temaAzul button-color dos "></button>
+                </li>
+                <li class="lista">
+                  <button id="temaOro"   class="temaOro button-color tres"  ></button>
+                </li>
+                <li class="lista">
+                  <button id="temaGris"  class="temaGris button-color cuatro" ></button>
+                </li> 
+              </ul>
+          </li>
+          
+        </ul>
+       </section>
+    <div class="formurario">
+        <form  a>
+            <h2 class="titulo-form">Registrarse</h2>
+            <hr class="hr-top">
+            <!-- Nombres -->
+            <label for="">Nombres: </label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br>
+            <label for="">Tipo de documento: </label>
+            <select name="tipoDeDocumento" id="tipoDeDocumento" >
+                <option >  ----- </option>
+                <option value="TI-TarjetaDeIdentidad" required>TI- Tarjeta de identidad</option>
+                <option value="CC-CedulaDeCiudadania" required >CC- Cedula de ciudadanía</option>
+                <option value="NIT-NúmeroIdentificaciónPersonal" required >NIT- Número de Identificación personal</option>
+            </select>
+            <br>
+            <!-- Numero de documento -->
+            <label for="">Numero de documento: </label>
+            <input type="text" name="numeroDeDocumento" id="numeroDeDocumento" required>
+            <br>
+            <!-- archivo documento -->
+            <fieldset>
+                <legend> Documento anexo </legend>
+                <label for="">Subir Documento : </label>
+                <input class="file" type="file" name="archivo" id="archivo" required>
+            </fieldset>
+            <!-- Region -->
+            <label for="">Region: </label>
+            <select name="Region" id="Region" required>
+                <option > ------ </option>
+                <option value="LAN (LA1)">LAN (LA1)</option>
+                <option value="LAS (LA2)">LAS (LA2)</option>
+                <option value="OCE (OCE/OC1)">OCE (OCE/OC1)</option>
+                <option value="JP (JP1)">JP (JP1)</option>
+                <option value="NA (NA1)">NA (NA1)</option>
+                <option value="EUW (EUW1)">EUW (EUW1)</option>
+                <option value="KR (KR)">KR (KR)</option>
+                <option value="SG (SG2)">SG (SG2)</option>
+            </select>
+            <br>
+            <!-- Correo electrónico -->
+            <label for="">Correo electrónico: </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <!-- Telefono -->
+            <label for="">Telefono: </label>
+            <input type="tel" name="telefono" id="telefono" required>
+            <br>
+            <!-- dirección -->
+            <label for="">Dirección: </label>
+            <input type="text" name="direccion" id="direccion" required>
+            <br>
+            <!-- Fecha de nacimiento -->
+            <label for="">Fecha de nacimiento: </label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+            <!-- Contraseña -->
+            <br>
+            <label for="">Contraseña: </label>
+            <input type="password" name="password" id="password" required >
+            <br>
+            <hr class="hr-button">
+            <!-- boton -->
+            <div class="contenedor-boton">
+                <button class="boton-registro" onclick="formulario()">Registrarse</button> 
+            </div>            
+        </form>
+    </div>
+    <div class="container-table" id="table">
+        <table class="table">
+            <tr class="titulo-tabla">
+                <th colspan="5">Estadisticas de Popularidad 2024 de campeones</th>
+            </tr>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Popularidad</th>
+                <th>Tasa de victorias</th>
+                <th>Porcentaje de bloqueos</th>                    
+            </tr>
+            <tr>
+                <th>1.</th>
+                <td>Jinx</td>
+                <td>22.9%</td>
+                <td>52.0%</td>
+                <td>18.2%</td>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <td>Lee sin</td>
+                <td>22.5%</td>
+                <td>50.0%</td>
+                <td>16.1%</td>               
+            </tr>
+            <tr>
+                <th>3.</th>
+                <td>Jhin</td>
+                <td>16.1%</td>
+                <td>51.4%</td>
+                <td>2.7%</td>
+            </tr>
+            <tr>
+                <th>4.</th>
+                <td>Kai´sa</td>
+                <td>15.8%</td>
+                <td>47.9%</td>
+                <td>7.4%</td>
+            </tr>
+            <tr>
+                <th>5.</th>
+                <td>Lux</td>
+                <td>15.2%</td>
+                <td>49.7%</td>
+                <td>7.4%</td>
+            </tr>
+        </table>
+    </div>
+    <div class="volver">
+        <a class="a" href="index.html" type="button">Volver</a>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
